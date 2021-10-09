@@ -12,7 +12,6 @@ export const Login: React.FC<props> = ({onHide}) => {
             <IonContent>
                 <IonInput placeholder='email' className='primary-input'></IonInput>
                 <IonInput placeholder='password' className='primary-input'></IonInput>
-
                 <IonButton onClick={()=>onHide()}>hide</IonButton>
             </IonContent>
         </IonPage>
